@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ClickityClick from './components/ClickityClick.js'
+
+import DigitalClicker from './components/DigitalClicker.js'
+import YouTubeDebugger from './components/YouTubeDebugger.js';
 
 
-ReactDOM.render(<ClickityClick/>,
-  document.getElementById('root')
+ReactDOM.render(
+<div>
+<DigitalClicker/>
+<YouTubeDebugger/>
+</div>,
+document.getElementById('root')
 );
