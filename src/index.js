@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import DigitalClicker from './components/DigitalClicker.js'
+import YouTubeDebugger from './components/YouTubeDebugger.js';
+
+
 ReactDOM.render(
-  <div>
-    Mount Components Here
-  </div>,
-  document.getElementById('root')
+<div>
+<DigitalClicker/>
+<YouTubeDebugger/>
+</div>,
+document.getElementById('root')
 );
